@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUNGA NAJWA — Portofolio</title>
+<meta name="description" content="Portfolio personal Bunga Najwa — Frontend Developer & Designer.">
+
+<!-- Google Fonts: Fraunces (display) + Plus Jakarta Sans (body) + Space Mono (label/utility) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ CUSTOM CURSOR BLOB (dekorasi, opsional) ============ -->
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#home" class="navbar__logo">Bunga Najwa<span class="dot">.
+
+    <nav class="navbar__nav" id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero" id="home">
+    <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+    <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+      <p class="eyebrow" data-reveal>// Hi, Welcome!</p>
+
+      <h1 class="hero__title" data-reveal>
+        Saya <span class"line1"="highlight">Bunga Najwa Ramadhani</span><br> 
+        merancang & membangun<br>
+        pengalaman digital<br>
+        <em>berkesan</em>.
+      </h1>
+
+      <p class="hero__desc" data-reveal>
+        Kepribadian yang suka bereksplorasi untuk menjadi sebuah kesenangan.
+        Ketertarikan dalam dunia make up sebagai bentuk seni dan bentuk ekspresi diri,
+        fotografi dalam bentuk mengabadikan sebuah momen.
+      </p>
+
+      <div class="hero__cta" data-reveal>
+        <a href="#projects" class="btn btn--primary">Lihat Projects</a>
+        <a href="#contact" class="btn btn--ghost">Hubungi Saya</a>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll ke bawah">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+
+      <div class="about__media" data-reveal>
+        <div class="about__photo-frame">
+          <!-- Ganti src dengan foto kamu -->
+          <img src="FotoProfil.jpg" alt="Foto Profil Bunga Najwa" class="about__photo">
+        </div>
+        <div class="about__badge">2+ Tahun Belajar</div>
+      </div>
+
+      <div class="about__content">
+        <p class="eyebrow" data-reveal>About Me</p>
+        <h2 class="section-title" data-reveal>Sedikit cerita tentang saya</h2>
+
+        <p class="about__text" data-reveal>
+          Saya adalah seorang mahasiswa yang memiliki ketertarikan dalam dunia make up, fotografi, desain grafis, dan coding. Saya senang bereksplorasi untuk menciptakan karya yang unik dan berkesan.
+        </p>
+        <p class="about__text" data-reveal>
+          Saya juga aktif dalam komunitas fotografi dan seni, di mana saya senang berbagi pengetahuan dan belajar dari orang lain.
+        </p>
+
+        <ul class="about__facts" data-reveal>
+          <li><span class="about__facts-label">Lokasi</span><span>Jakarta Selatan, Indonesia</span></li>
+          <li><span class="about__facts-label">Kemampuan</span><span>Photographer</span></li>
+          <li><span class="about__facts-label">Status</span><span>Mahasiswa|Photography</span></li>
+          <li><span class="about__facts-label">Email</span><span>ramadhanibunganajwa@email.com</span></li>
+        </ul>
+
+        <a href="#" class="btn btn--outline" data-reveal>Download CV</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SKILLS SECTION ============ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <p class="eyebrow center" data-reveal>What I Use</p>
+      <h2 class="section-title center" data-reveal>Skills & Tools</h2>
+      <p class="section-sub center" data-reveal>
+        Beberapa teknologi dan tools yang biasa saya gunakan untuk membangun produk digital.
+      </p>
+
+      <div class="skills__grid" data-reveal>
+
+        <div class="skill-card">
+          <h3 class="skill-card__title">Frontend</h3>
+          <div class="skill-chips">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Python</span>
+          </div>
+        </div>
+
+
+        <div class="skill-card">
+          <h3 class="skill-card__title">Design & Tools</h3>
+          <div class="skill-chips">
+            <span class="chip">Git & GitHub</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">Canva</span>
+            <span class="chip">CorrelDraw</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS SECTION ============ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <p class="eyebrow center" data-reveal>Selected Work</p>
+      <h2 class="section-title center" data-reveal>Projects</h2>
+      <p class="section-sub center" data-reveal>
+        Beberapa project yang pernah saya kerjakan.
+      </p>
+
+      <div class="projects__grid" data-reveal>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="Proyek1.jpg">
+            <div class="project-card__overlay">
+              <a href="#" class="project-card__link">Lihat Detail →</a>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__tag">Web App</span>
+            <h3 class="project-card__title">Web Portofolio</h3>
+            <p class="project-card__desc">Portofolio web saya yang menampilkan berbagai project yang pernah saya kerjakan.</p>
+            <div class="project-card__stack">
+              <span>HTML5</span><span>CSS</span><span>Javascript</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="Proyek2.jpg">
+            <div class="project-card__overlay">
+              <a href="#" class="project-card__link">Lihat Detail →</a>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__tag">Photographer</span>
+            <h3 class="project-card__title">Seni Foto</h3>
+            <p class="project-card__desc">Kumpulan karya foto yang menunjukkan kreativitas dan keahlian dalam bidang fotografi.</p>
+            <div class="project-card__stack">
+              <span>Canon</span><span>Lightroom</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="Proyek3.jpg">
+            <div class="project-card__overlay">
+              <a href="#" class="project-card__link">Lihat Detail →</a>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__tag">Design Grafis</span>
+            <h3 class="project-card__title">Desain Grafis</h3>
+            <p class="project-card__desc">Kumpulan desain grafis yang menunjukkan kreativitas dan keahlian dalam bidang desain.</p>
+            <div class="project-card__stack">
+              <span>Canva</span><span>CorelDRAW</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+
+      <div class="contact__intro">
+        <p class="eyebrow" data-reveal>Get In Touch</p>
+        <h2 class="section-title" data-reveal>Yuk, terhubung</h2>
+        <p class="section-sub" data-reveal>
+          Punya pertanyaan, ide kolaborasi, atau sekadar mau menyapa? Isi form di samping
+          atau hubungi saya lewat sosial media di bawah.
+        </p>
+
+        <div class="contact__socials" data-reveal>
+          <a href="https://github.com/ramadhanibunganajwa-lgtm" class="social-pill">GitHub.com/ramadhanibunganajwa-lgtm</a>
+          <a href="https://instagram.com/_yyournaa" class="social-pill">@_yyournaa</a>
+          <a href="mailto:ramadhanibunganajwa@gmail.com" class="social-pill">ramadhanibunganajwa@gmail.com</a>
+        </div>
+      </div>
+
+      <form class="contact__form" id="contactForm" data-reveal>
+        <div class="form-group">
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" placeholder="Nama kamu" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="email@kamu.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tulis pesan kamu di sini..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--full">Kirim Pesan</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year"></span> Bunga Najwa Ramadhani. Dibuat dengan ♡ dan secangkir kopi.</p>
+    <a href="#home" class="footer__top">Kembali ke atas ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
